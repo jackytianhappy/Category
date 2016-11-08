@@ -16,6 +16,7 @@
 		85825D4E1DD1643C0085C332 /* CategoryCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85825D4D1DD1643C0085C332 /* CategoryCollectionTests.m */; };
 		85825D591DD1643C0085C332 /* CategoryCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85825D581DD1643C0085C332 /* CategoryCollectionUITests.m */; };
 		85825D691DD165330085C332 /* UIImage+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = 85825D681DD165330085C332 /* UIImage+Compression.m */; };
+		85825D6C1DD16D040085C332 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 85825D6B1DD16D040085C332 /* UIColor+HexString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		85825D5A1DD1643C0085C332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85825D671DD165330085C332 /* UIImage+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compression.h"; sourceTree = "<group>"; };
 		85825D681DD165330085C332 /* UIImage+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compression.m"; sourceTree = "<group>"; };
+		85825D6A1DD16D040085C332 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		85825D6B1DD16D040085C332 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 			children = (
 				85825D671DD165330085C332 /* UIImage+Compression.h */,
 				85825D681DD165330085C332 /* UIImage+Compression.m */,
+				85825D6A1DD16D040085C332 /* UIColor+HexString.h */,
+				85825D6B1DD16D040085C332 /* UIColor+HexString.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85825D6C1DD16D040085C332 /* UIColor+HexString.m in Sources */,
 				85825D3B1DD1643C0085C332 /* ViewController.m in Sources */,
 				85825D381DD1643C0085C332 /* AppDelegate.m in Sources */,
 				85825D691DD165330085C332 /* UIImage+Compression.m in Sources */,
